@@ -1,0 +1,65 @@
+# ==========================
+# 3D Graph Control (.gitignore)
+# ==========================
+
+# Ignore logs, crash dumps
+*.log
+*.log.*
+logs/
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+._*
+
+# Ignore IDE/editor temp files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.bak
+*.tmp
+
+# Ignore cache folders (if browser cache dumped or temporary builds created)
+.cache/
+temp/
+tmp/
+
+# Ignore web build tools if added later
+dist/
+build/
+out/
+
+# Ignore any compiled packages (if you start using npm or yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore test coverage if you add tests
+coverage/
+*.lcov
+
+# Ignore future local env files
+.env
+.env.*
+
+# Ignore output bundles if exported
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Asset dumps (EXCEPT graph data)
+assets/*
+!assets/data.json
+!assets/3d-graph.png
+
+# Optional: If you add screenshots or demo gifs
+*.gif
+*.webm
+*.mp4
+*.avi
